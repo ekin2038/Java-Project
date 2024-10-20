@@ -1,0 +1,129 @@
+.button{
+-fx-background-color: orange;
+-fx-background-radius: 30;
+}
+.buttonBlackWhite{
+-fx-background-color: white;
+-fx-background-radius: 15;
+}
+
+.buttonBlue{
+-fx-background-color: #004466;
+-fx-background-radius: 15;
+}
+.button:hover{
+-fx-background-color: coral;
+}
+.logIn{
+-fx-background-image: url("Merged.jpg");
+-fx-background-size: contain;
+-fx-background-repeat: no-repeat;
+-fx-background-position: center;
+-fx-background-size:100% 100%;
+}
+.anchorpane1{
+-fx-background-color: #001a00;
+-fx-background-size: contain;
+-fx-background-size:100% 100%;
+}
+.anchorpane2{
+-fx-background-color: #a8a8a6;
+-fx-background-size: contain;
+-fx-background-size:100% 100%;
+}
+.anchorpane3{
+-fx-background-color: #66cc66;
+-fx-background-size: contain;
+-fx-background-size:100% 100%;
+}
+.button1{
+-fx-background-color: #a8a8a6;
+-fx-background-radius: 30;
+}
+.button2{
+-fx-background-color: #000000;
+-fx-background-radius: 30;
+}
+.ProductionCompanyMovies{
+ -fx-background-image: url('Batmanbackdrop.jpg');
+ -fx-background-size: cover;
+ }
+ .Sky{
+  -fx-background-image: url('skyImage.jpg');
+  -fx-background-size: cover;
+  }
+.table-view .column-header-background .filler {
+    -fx-background-color: transparent;
+    }
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(to bottom, #1dbbdd44, #93f9b944);
+    -fx-background-radius: 7px 7px 0px 0px;
+    -fx-background-insets: 0 11px 0 0;
+    -fx-padding: 0 0 5px 0;
+}
+.table-view .table-cell{
+    -fx-border-color: transparent;
+    -fx-padding: 2 0 2 10px;
+}
+.table-row-cell: hover {
+    -fx-background-color: #93f9b911;
+    -fx-text-background-color: red;
+}
+.table-row-cell: odd{
+    -fx-background-color: #93f9b911;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+.table-row-cell: even{
+    -fx-background-color: #1dbbdd11;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+.addMovie{
+-fx-background-image: url("TheOmenbackdrop.jpg");
+-fx-background-size: contain;
+-fx-background-repeat: no-repeat;
+-fx-background-position: center;
+-fx-background-size:100% 100%;
+}
+.MovieWithMaximumRevenue{
+-fx-background-image: url("ToyStorybackdrop.jpg");
+-fx-background-size: contain;
+-fx-background-repeat: no-repeat;
+-fx-background-position: center;
+-fx-background-size:100% 100%;
+}
+.TransferMovie{
+-fx-background-image: url("DragonHeartbackdrop.jpg");
+-fx-background-size: contain;
+-fx-background-repeat: no-repeat;
+-fx-background-position: center;
+-fx-background-size:100% 100%;
+}
+.MostRecentMovie{
+-fx-background-image: url("Jawsbackdrop.jpg");
+-fx-background-size: contain;
+-fx-background-repeat: no-repeat;
+-fx-background-position: center;
+-fx-background-size:100% 100%;
+}
+.text{
+position: absolute;
+top: 50%;
+right: 50%;
+transform:translate(50%, -50%);
+text-shadow: 1px 1px 1px #919191,
+              1px 2px 1px #919191,
+              1px 3px 1px #919191,
+              1px 4px 1px #919191,
+              1px 5px 1px #919191,
+              1px 6px 1px #919191,
+              1px 7px 1px #919191,
+              1px 8px 1px #919191,
+              1px 9px 1px #919191,
+              1px 10px  1px #919191,
+       1px 18px 6px rgba(16, 16, 16, 0.4),
+       1px 22px 10px rgba(16, 16, 16, 0.2),
+       1px 25px 35px rgba(16, 16, 16, 0.2),
+       1px 30px 60px rgba(16, 16, 16, 0.4),
+}

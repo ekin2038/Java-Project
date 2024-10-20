@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="574.0" prefWidth="798.0" styleClass="addMovie" stylesheets="@AluVorta.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.AddMovieController">
+   <children>
+      <Label layoutX="14.0" layoutY="17.0" text="Enter Movie Name" textFill="#fff4f4">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="15.0" layoutY="70.0" text="Enter Release Year" textFill="#fffbfb">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="12.0" layoutY="117.0" text="Enter Genre1" textFill="#fffafa">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="13.0" layoutY="167.0" text="Enter Genre2" textFill="#fffbfb">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="13.0" layoutY="214.0" text="Enter Genre3" textFill="#fffafa">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="9.0" layoutY="263.0" text="Enter Running Time" textFill="#fffbfb">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="12.0" layoutY="314.0" text="Enter Budget" textFill="#fffafa">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="13.0" layoutY="364.0" text="Enter Revenue" textFill="#fcfafa">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="name" layoutX="225.0" layoutY="14.0" prefHeight="34.0" prefWidth="174.0" promptText="Name" />
+      <TextField fx:id="year" layoutX="225.0" layoutY="67.0" prefHeight="34.0" prefWidth="174.0" promptText="Year" />
+      <TextField fx:id="genre1" layoutX="225.0" layoutY="114.0" prefHeight="34.0" prefWidth="174.0" promptText="genre1" />
+      <TextField fx:id="genre2" layoutX="225.0" layoutY="164.0" prefHeight="34.0" prefWidth="174.0" promptText="genre2" />
+      <TextField fx:id="genre3" layoutX="225.0" layoutY="211.0" prefHeight="34.0" prefWidth="174.0" promptText="genre3" />
+      <TextField fx:id="time" layoutX="225.0" layoutY="260.0" prefHeight="34.0" prefWidth="174.0" promptText="time in minutes" />
+      <TextField fx:id="budget" layoutX="225.0" layoutY="311.0" prefHeight="34.0" prefWidth="174.0" promptText="budget" />
+      <TextField fx:id="revenue" layoutX="225.0" layoutY="361.0" prefHeight="34.0" prefWidth="174.0" promptText="revenue" />
+      <Button layoutX="136.0" layoutY="498.0" mnemonicParsing="false" onAction="#onBackButton" prefHeight="26.0" prefWidth="82.0" styleClass="buttonBlackWhite" text="Back">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button layoutX="136.0" layoutY="445.0" mnemonicParsing="false" onAction="#onSubmitButton" prefHeight="26.0" prefWidth="82.0" stylesheets="@AluVorta.css" text="Submit">
+         <styleClass>
+            <String fx:value="buttonBlackWhite" />
+            <String fx:value="buttonBlackWhite" />
+         </styleClass>
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

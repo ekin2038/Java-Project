@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="609.0" prefWidth="824.0" style="-fx-background-color: #00b8e6;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.MovieWithMaximumRevenueController">
+   <children>
+      <TableView fx:id="Table" layoutX="21.0" layoutY="63.0" prefHeight="450.0" prefWidth="781.0" styleClass="MovieWithMaximumRevenue" stylesheets="@AluVorta.css">
+        <columns>
+          <TableColumn fx:id="movieName" minWidth="0.0" prefWidth="158.39999103546143" text="Name" />
+          <TableColumn fx:id="year" prefWidth="93.59999084472656" text="Release Year" />
+            <TableColumn fx:id="genre1" prefWidth="84.800048828125" text="Genre1" />
+            <TableColumn fx:id="genre2" prefWidth="92.0" text="Genre2" />
+            <TableColumn fx:id="genre3" minWidth="0.0" prefWidth="81.60003662109375" text="Genre3" />
+            <TableColumn fx:id="time" prefWidth="102.4000244140625" text="Running Time" />
+            <TableColumn fx:id="budget" minWidth="0.0" prefWidth="80.7999267578125" text="Budget" />
+            <TableColumn fx:id="revenue" text="Revenue" />
+        </columns>
+      </TableView>
+      <Button layoutX="318.0" layoutY="529.0" mnemonicParsing="false" onAction="#onBackButton" prefHeight="32.0" prefWidth="74.0" styleClass="buttonBlackWhite" stylesheets="@AluVorta.css" text="Back">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Button>
+      <Button layoutX="425.0" layoutY="529.0" mnemonicParsing="false" onAction="#onReloadButtonClick" prefHeight="32.0" prefWidth="74.0" styleClass="buttonBlackWhite" stylesheets="@AluVorta.css" text="Reload">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
